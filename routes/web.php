@@ -34,6 +34,8 @@ Route::get('products/{id}/detail', function ($id) {
     for ($i=1; $i<$id; $i++)
     {
        $msg = $msg . $i ."<br/>";
+       //FF
+       
     }
     return $msg;
-})->where('id','[0-9]+')->name('demo.products');
+})->where('id','[0-9]+')->name('demo.products  ');
